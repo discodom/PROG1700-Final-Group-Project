@@ -1,7 +1,8 @@
 #Dominic Radley
 #Final Project - PROG1700
 #W0534133
-#I am the only contributer to this file.
+#I am the only contributer to this file currently.
+import time 
 
 def show_menu():
     print("1. Manage Patients")
@@ -13,15 +14,18 @@ def show_menu():
 
 def patient_management():
     print("Waiting for this to be implemented")
+    time.sleep(2)
 
 def doctor_management():
     print("Waiting for this to be implemented")
+    time.sleep(2)
 
 def schedule_appointments():
     print("Waiting for this to be implemented")
-
+    time.sleep(2)
 def view_reports():
     print("Waiting for this to be implemented")
+    time.sleep(2)
 
 
 def user_choice():
@@ -40,6 +44,8 @@ def user_choice():
 
     except (KeyboardInterrupt, EOFError):
         return "5"
+    #Assumes user wants to stop, as control + c is a console break
+    #Provide supporting resouirce here 
 
     except Exception as e:
         print(f"An unexpected error occurred: {e}")

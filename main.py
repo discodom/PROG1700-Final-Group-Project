@@ -1,9 +1,9 @@
 # Main file for our project!!!
-from Code.menu import run_menu
+import Code.menu
 
 
 def main():
-    run_menu()
+    Code.menu.run_menu()
 
 
 if __name__ == "__main__":
